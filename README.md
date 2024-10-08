@@ -3,7 +3,8 @@ Complete Bank management system in spring boot using Custom Exception handling, 
 
 # EndPoints
 ## Branch
-1- Create Branch => localhost:8080/branches **POST** \ 
+1- Create Branch => localhost:8080/branches **POST**  
+
 { "branchName" : "name", "branchAddress" : "Address", "branchCode" : "code"} \ 
 2- Get branch details by id => localhost:8080/branches/1 **GET**
 3- Get all users in specific branch => localhost:8080/branches/allUsers/1 **GET**
