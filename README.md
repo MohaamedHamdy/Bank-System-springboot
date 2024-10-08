@@ -12,11 +12,11 @@ Complete Bank management system in spring boot using Custom Exception handling, 
 3- Get all users in specific branch => localhost:8080/branches/allUsers/1 **GET**  
 
 ## User
-1- Create User => localhost:8080/users  
+1- Create User => localhost:8080/users **POST**
 
 { "userName": "Mohamed Hamdy", "address": "123 Main St", "phoneNumber": "123-456-7890", "email": "john.doe@example.com", "branchId": 1}  
 
-2- Get user details => localhost:8080/users/9  
+2- Get user details => localhost:8080/users/9 **GET**
 
 ## Account 
 1- Create account => localhost:8080/accounts **POST**  
